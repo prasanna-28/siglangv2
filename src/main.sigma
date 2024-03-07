@@ -1,14 +1,33 @@
 
 ohio main(){
   ohio i = 0;
-  fortnite(i < 400){
+  fortnite(i < 5){
     ohio x = i % 2;
-    edge(x == 1){
+    edge(x == 0){
       skibidi("hello");
     }
     goon{
       skibidi("world");
     }
     i++
+  }
+  ohio k = 0;
+  fortnite(k < 100){
+    edge(k%15 == 0){
+        skibidi("fizzbuzz");
+        k = k + 1;
+        jelq;
+    }
+    edge(k%5 == 0){
+        skibidi("fizz");
+        k = k + 1;
+        jelq;
+    }
+    edge(k%3 == 0){
+        skibidi("buzz");
+        k = k + 1;
+        jelq;
+    }
+    k++
   }
 }
